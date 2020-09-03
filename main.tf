@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "rg" {
 
 module "storage-account" {
   source  = "picta/storage-account/azurerm"
-  version = "4.0"
+  version = "5.0"
   # insert the required variables here
   location = "eastus"
   resource_group_name = "QuickstartTerraformTest-rg"
